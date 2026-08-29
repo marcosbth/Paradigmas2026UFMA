@@ -1,0 +1,49 @@
+Inicio
+nome
+idade
+saldo_disponível
+preco_produto
+quant_desejada
+produtos
+custo_total
+leia -> nome
+leia -> idade
+leia -> saldo-disponivel
+leia-> preco_produto
+leia-> quant_desejada
+leia -> produtos
+
+custo_total = produtos*quant_desejada
+se   saldo_disponivel > custo_total e idade > 18
+  escreva Nome
+  escreva idade
+  escreva idade do cliente permite que ele compre produtos restritos
+  escreva ele tem saldo suficiente para compra
+  escreva quant_desejada
+  escreva saldo_disponivel
+  escreva custo_total
+  screva ele tem saldo suficiente para compra
+se saldo_disponível < custo_total e idade < 18
+  escreve nome 
+  escreva idade
+  escreva idade dos cliente não permite que ele compre esses produtos
+  escreva saldo_disponivel
+  escreva custo_total
+  escreva ele tem saldo suficiente para compra
+se saldo_disponivel > custo_total e idade < 18
+  escreva Nome
+  escreva idade
+  escreva idade do cliente não permite que ele compre esses produtos 
+  escreva ele tem saldo suficiente para compra
+  escreva quant_desejada
+  escreva custo_total
+se saldo_disponivel < custo_total ou idade < 18
+  escreva Nome
+  escreva idade
+  escreva idade do cliente permite que ele compre produtos restritos
+  escreva ele tem saldo suficiente para compra
+  escreva quant_desejada
+  escreva custo_total
+
+
+Fim
