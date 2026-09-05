@@ -1,0 +1,59 @@
+Pseudocodigo:
+
+Inicio
+Valor = valor_pre_definido
+opcao
+deposito
+tirar
+confirmar
+escreva (Bem vindo, cliente. escolha uma das opções abaixo.)
+
+escreva (Menu de opcao, escolha apenas um dos numeros abaixo)
+
+escreva(1-consultar saldo)
+escreva(2-depositar)
+escreva(3-sacar)
+escreva(4-encerrar)
+
+enquanto (opcao<4 ou opcao < 1)
+	escreva(Opcao invalida, por favor, escreva uma opcao valida)
+		
+		escreva(1-consultar saldo)
+		escreva(2-depositar)	
+		escreva(3-sacar)
+		escreva(4-encerrar)   
+se opcao ==1{
+
+escreva (valor)
+
+}
+se opcao == 2{
+valor = valor + deposito
+
+}
+se opcao == 3{
+leia (tirar)
+enquanto tirar > Valor
+		escreva (Valor de saque maior que saldo disponivel, por favor, digite valor de saque aceitavel.)
+se tirar < Valor
+	Valor = valor - tirar
+}
+se opcao == 4{
+leia confirmar
+enquanto confirmar =! verdadeiro
+escreva (Bem vindo, cliente. escolha uma das opções abaixo.)
+
+escreva (Menu de opcao, escolha apenas um dos numeros abaixo)
+
+escreva(1-consultar saldo)
+escreva(2-depositar)
+escreva(3-sacar)
+escreva(4-encerrar)
+leia opcao
+if confirmar == verdadeiro
+escreva (Confirmado saida do sistema, obrigado!)
+
+}
+
+FIM
+
